@@ -1,0 +1,33 @@
+manual deploy 
+
+ 
+
+/var/lib/jenkins/workspace/myfirstjavaproject/target   
+
+ 
+
+/job/myfirstjavaproject/ws/target/
+
+ 
+
+java -jar Shopping_Cart-0.0.1-SNAPSHOT.jar --server.port=8083
+
+ 
+
+http://35.255.112.92:8083/
+
+ 
+
+ubuntu..........
+
+ 
+
+ 
+
+WIND ? 
+
+ 
+
+ 
+
+java -jar shop.jar --server.port=8083
