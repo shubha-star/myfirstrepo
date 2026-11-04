@@ -1,1 +1,41 @@
 url:http://136.64.194.133:8080/
+
+pipeline {
+
+agent any
+
+    stages {
+
+        stage('Git clone') {
+
+            steps {
+
+            git branch: 'main', url: 'https://github.com/DevSecOpsG/helloworldsimplejavaprogram'
+
+            }
+
+        }
+
+        stage('Build'){
+
+            steps{
+
+            sh 'javac helloworld.java'
+
+            }
+
+        }
+
+        stage('Run'){
+
+            steps{
+
+            sh 'java Simple'
+
+            }
+
+        }
+
+    }
+
+}
