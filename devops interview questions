@@ -1,0 +1,30 @@
+AWS DevOps Engineer Interview Experience | 2–3 Years
+
+Recently, a candidate appeared for an AWS DevOps Engineer interview at IoT India and shared these real interview questions.
+Sharing them with our DevOps, Cloud & SRE community to help everyone prepare for upcoming opportunities.
+
+🔥 Interview Questions
+1. What is an Error Budget?
+2. How would you optimize an AWS bill if it doubled compared to the previous month?
+3. For application deployment, how would you choose between EC2, ECS Cluster, and Fargate?
+4. Explain AWS ECS architecture.
+5. You have a FastAPI application. Explain its complete deployment process from GitHub to ECS Fargate. What are the different stages involved in the CI/CD pipeline?
+6. How do you define ECS Task Definitions?
+7. How do you manage environment variables and secrets?
+8. How do you segregate Dev, Staging, and Production environments?
+9. How does ECS handle scaling and failures?
+10. How can you manage AWS Lambda cold start problems?
+11. Suppose you are hosting a FastAPI weather application on an EC2 instance in a private subnet of a VPC. How can it access external APIs and download packages without exposing the application directly to the internet? Explain NAT Gateway configuration.
+12. What happens internally when a FastAPI application calls an external API?
+13. Can a NAT Gateway allow external users to connect to your private EC2 instance?
+14. Multiple developers need access to a shared RDS instance. How would you centrally manage database connectivity without manually adding individual developer IP addresses to security group inbound rules?
+15. How does Kubernetes handle pod failures? How do you roll back a failed deployment? Explain the Control Plane and Worker Node architecture.
+16. Explain basic Kubernetes commands used to manage pods.
+17. Differentiate between Pod, Deployment, and Service.
+18. If you have to orchestrate containers using AWS EKS instead of a self-managed Kubernetes cluster, how would you implement it?
+19. What is Terraform? What is a Terraform State File? Where can you securely store it? What SOP would you follow if the state file gets deleted?
+20. Differentiate between Terraform and AWS CloudFormation. Explain their respective use cases.
+Load Balancing & Docker Optimization
+21. Differentiate between ALB and NLB.
+22. Your CI/CD pipeline builds Docker images and deploys a working application. Now, you need to introduce new modules or enhance application features. How would you minimize deployment latency, unnecessary Docker image rebuilds, image size, and overall pipeline execution time?
+23. Which lightweight Docker base images would you recommend for optimizing image size? What components would you eliminate to reduce the attack surface? If a pipeline starts from a cold state and incurs additional memory and build-time overhead, how would you optimize build performance?
